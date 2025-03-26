@@ -10,9 +10,10 @@ public class TestaVetores {
         lista.insereFinal(1);
         lista.insereFinal(4);
         lista.imprime();
+    
+        lista.remove(1);
 
-        lista.removeFinal();
-        lista.removeFinal();
+
         lista.imprime();
     }
 }
